@@ -1,0 +1,40 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtualenv / envs
+/.venv/
+/venv/
+/env/
+/arithmetic_env/
+
+# Outputs / logs / datasets
+/output_analysis/
+/outputfile/
+/out/
+/paper_pic/
+/dataset/
+
+/script/
+/scripts_old/
+/old_scripts/
+/config2/
+/config_cpu/
+/timm/
+run.sh
+/output*/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.bin
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+
+# Local temp
+delete.py
